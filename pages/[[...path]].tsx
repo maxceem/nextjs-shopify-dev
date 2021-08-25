@@ -19,6 +19,7 @@ import { useThemeUI } from '@theme-ui/core'
 import { Link } from '@components/ui'
 import { Themed } from '@theme-ui/mdx'
 import { getLayoutProps } from '@lib/get-layout-props'
+import AnchorLink from '@components/ui/AnchorLink'
 
 const isProduction = process.env.NODE_ENV === 'production'
 
@@ -111,6 +112,10 @@ export default function Path({
         renderLink={(props: any) => {
           if (props.target === '_blank') {
             return <Themed.a {...props} />
+          }
+          // for hash links add smooth scrolling
+          if (props.href?.startsWith('#')) {
+            return <AnchorLink {...props} />
           }
           return <Themed.a {...props} as={Link} />
         }}
