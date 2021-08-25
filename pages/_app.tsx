@@ -11,6 +11,7 @@ builder.init(builderConfig.apiKey)
 import '../blocks/ProductGrid/ProductGrid.builder'
 import '../blocks/CollectionView/CollectionView.builder'
 import '../blocks/ProductView/ProductView.builder'
+import '../blocks/ProductVariants/ProductVariants.builder'
 
 Builder.register('insertMenu', {
   name: 'Shopify Collections Components',
@@ -27,6 +28,7 @@ Builder.register('insertMenu', {
     { name: 'ProductGrid' },
     { name: 'ProductBox' },
     { name: 'ProductView' },
+    { name: 'ProductVariantsBox' },
   ],
 })
 
