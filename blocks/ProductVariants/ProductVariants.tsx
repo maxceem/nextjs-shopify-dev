@@ -67,26 +67,26 @@ const ProductBox: React.FC<Props> = ({
         <div className={styles["lander-export-title"]}>
           <div className={styles["desktop"]} style={{marginBottom: '50px'}}>
             <h1 style={{textAlign: 'center', lineHeight: '52px', margin: '0px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '36px'}}>{title}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '36px'}}>{title}</span>
             </h1>
             <h2 style={{textAlign: 'center', lineHeight: '16px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '16px'}}>{subtitle}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '16px'}}>{subtitle}</span>
             </h2>
           </div>
           <div className={styles["tablet"]} style={{marginBottom: '50px'}}>
             <h1 style={{textAlign: 'center', lineHeight: '36px', margin: '0px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '26px'}}>{title}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '26px'}}>{title}</span>
             </h1>
             <h2 style={{textAlign: 'center', lineHeight: '16px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '12px'}}>{subtitle}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '12px'}}>{subtitle}</span>
             </h2>
           </div>
           <div className={styles["mobile"]} style={{marginBottom: '30px'}}>
             <h1 style={{textAlign: 'center', lineHeight: '44px', margin: '0px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '28px', letterSpacing: 'normal'}}>{title}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '28px', letterSpacing: 'normal'}}>{title}</span>
             </h1>
             <h2 style={{textAlign: 'center', lineHeight: '16px'}}>
-              <span style={{fontFamily: 'helveticabold', fontSize: '14px', letterSpacing: 'normal'}}>{subtitle}</span>
+              <span style={{fontFamily: 'Helvetica, sans-serif', fontWeight: 600, fontSize: '14px', letterSpacing: 'normal'}}>{subtitle}</span>
             </h2>
           </div>
         </div>
@@ -117,7 +117,7 @@ const ProductBox: React.FC<Props> = ({
             <div className={styles["product-price"]}>
               <div className={styles["desktop"]} style={{marginBottom: '30px'}}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323'}}>PRICE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>PRICE</span>
                 </h1>
                 <h2 style={{lineHeight: '32px'}}>
                   <span style={{fontFamily: 'HelveticaNeueMedium', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 'normal'}}>{price}</span>
@@ -125,7 +125,7 @@ const ProductBox: React.FC<Props> = ({
               </div>
               <div className={styles["tablet"]} style={{marginBottom: '30px'}}>
                 <h1 style={{lineHeight: '16px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '12px', fontWeight: 'normal', color: '#232323'}}>PRICE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '12px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>PRICE</span>
                 </h1>
                 <h2 style={{lineHeight: '16px'}}>
                   <span style={{fontFamily: 'HelveticaNeueMedium', fontSize: '12px', fontWeight: 'normal', color: '#232323', letterSpacing: 'normal'}}>{price}</span>
@@ -133,7 +133,7 @@ const ProductBox: React.FC<Props> = ({
               </div>
               <div className={styles["mobile"]} style={{marginBottom: '30px'}}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323'}}>PRICE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>PRICE</span>
                 </h1>
                 <h2 style={{lineHeight: '32px'}}>
                   <span style={{fontFamily: 'HelveticaNeueMedium', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 'normal'}}>{price}</span>
@@ -143,17 +143,17 @@ const ProductBox: React.FC<Props> = ({
             <div className={styles["color-swatch"]}>
               <div className={styles["desktop"]}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323'}}>COLOR/STYLE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>COLOR/STYLE</span>
                 </h1>
               </div>
               <div className={styles["tablet"]}>
                 <h1 style={{lineHeight: '18px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '12px', fontWeight: 'normal', color: '#232323'}}>COLOR/STYLE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '12px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>COLOR/STYLE</span>
                 </h1>
               </div>
               <div className={styles["mobile"]}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323'}}>COLOR/STYLE</span>
+                  <span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 'normal', color: '#232323', letterSpacing: 2 }}>COLOR/STYLE</span>
                 </h1>
               </div>
               <div className={styles["color-swatch-items"]}>
@@ -177,19 +177,19 @@ const ProductBox: React.FC<Props> = ({
             <div className={styles["product-description"]}>
               <div className={styles["desktop"]} style={{marginTop: '30px', marginBottom: '20px'}}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{color: '#232323'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 800}}>INCLUDES</span></span>
+                  <span style={{color: '#232323'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 800, letterSpacing: 2 }}>INCLUDES</span></span>
                 </h1>
                 <div className={styles["description"]} dangerouslySetInnerHTML={{ __html: description! }} />
               </div>
               <div className={styles["tablet"]} style={{marginTop: '30px', marginBottom: '10px'}}>
                 <h1 style={{lineHeight: '18px'}}>
-                  <span style={{color: '#232323', fontSize: '12px'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontWeight: 800}}>INCLUDES</span></span>
+                  <span style={{color: '#232323', fontSize: '12px'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontWeight: 800, letterSpacing: 2 }}>INCLUDES</span></span>
                 </h1>
                 <div className={styles["description"]} dangerouslySetInnerHTML={{ __html: description! }} />
               </div>
               <div className={styles["mobile"]} style={{marginTop: '30px', marginBottom: '10px'}}>
                 <h1 style={{lineHeight: '24px'}}>
-                  <span style={{color: '#232323'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 800}}>INCLUDES</span></span>
+                  <span style={{color: '#232323'}}><span style={{fontFamily: 'HelveticaNeue-CondensedBlack', fontSize: '16px', fontWeight: 800, letterSpacing: 2 }}>INCLUDES</span></span>
                 </h1>
                 <div className={styles["description"]} dangerouslySetInnerHTML={{ __html: description! }} />
               </div>
