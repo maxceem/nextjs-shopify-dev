@@ -1,0 +1,62 @@
+@font-face {
+  font-family: tradegothicbold;
+  src: url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.eot');
+  src: url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.woff2')
+      format('woff2'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.woff')
+      format('woff'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.ttf')
+      format('truetype'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/trade_gothic_bold_condensed_no-webfont.svg#tradegothicbold')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueMedium;
+  src: url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.eot?18163975425650194504');
+  src: url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.woff2?18163975425650194504')
+      format('woff2'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.woff?18163975425650194504')
+      format('woff'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.ttf?18163975425650194504')
+      format('truetype'),
+    url('https://cdn.shopify.com/s/files/1/2398/0163/files/HelveticaNeueMedium.svg#HelveticaNeueMedium')
+      format('svg');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue Regular';
+  src: url('//cdn.shopify.com/s/files/1/0613/6213/t/655/assets/HelveticaNeNeueue.eot?76474');
+  src: url('//cdn.shopify.com/s/files/1/0613/6213/t/655/assets/HelveticaNeNeueue.eot?76474')
+      format('embedded-opentype'),
+    url('//cdn.shopify.com/s/files/1/0613/6213/t/655/assets/HelveticaNeue.ttf?v=17633223365958212421')
+      format('truetype'),
+    url('//cdn.shopify.com/s/files/1/0613/6213/t/655/assets/HelveticaNeue.otf?v=10184190119471972965')
+      format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeue-CondensedBlack;
+  src: url('https://cdn.shopify.com/s/files/1/0613/6213/files/HelveticaNeue-CondensedBlack-10.woff2?v=1604601024')
+      format('woff2'),
+    url('https://cdn.shopify.com/s/files/1/0613/6213/files/HelveticaNeue-CondensedBlack.woff?v=1604601023')
+      format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeue-CondensedBold;
+  src: url('https://cdn.shopify.com/s/files/1/0613/6213/files/AnyConv.com__HelveticaNeue-CondensedBold-05.woff?v=1608318115')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -5,3 +5,6 @@
 @import './components.css';
 
 @tailwind utilities;
+
+/* temporary import fonts, as we cannot add them in a free Builder account */
+@import './fonts.css';
